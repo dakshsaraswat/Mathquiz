@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.553)), url( https://t4.ftcdn.net/jpg/02/99/84/89/360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg) !important;
+ background-size: cover;
+ 
+ padding: 0%;
+ box-sizing: border-box;
+   
+}
+table{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-spacing: 0px;
+    
+}
+.time{
+    font-size: 0.8rem !important;
+}
+tr{
+    margin: 40px;
+}
+th{
+    color:rgb(226, 224, 224);
+    font-size: 3.6rem;
+    margin: 100px;
+    padding: 15px 25px;
+}
+td{
+    color: white;
+    font-size: 2rem;
+    padding: 14px;
+   
+}
+
+.delete{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.cont{
+    background-color: rgba(0, 0, 0, 0.192);
+    border: none;
+    border-bottom: 1.2px solid white;
+    box-shadow:0px 20px 15px -12px  white;
+    
+}

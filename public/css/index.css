@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.458), rgba(0, 0, 0, 0.403)), url(https://i.pinimg.com/564x/e9/a5/c4/e9a5c4e32b37902dc3c7750a69cf0c6b.jpg) !important;
+ background-size: cover;
+  }
+  .main{
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  
+  }
+  .mainbutton{
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    box-shadow: 0 0 10px 4px #fff;
+    color: white;
+    padding-left: 2.8rem !important;
+    padding-right: 2.8rem !important;
+    
+    
+  }
+  .mainbutton1g,.mainbutton1{
+    box-shadow: 0 0 10px 4px #fff;
+    background-color: rgba(0, 0, 0, 0.207) !important;
+    border: 2px solid white !important;
+    color: white;
+    padding-left: 2.8rem !important;
+    padding-right: 2.8rem !important;
+
+  }
+  .second,.secondg{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+  
+  }
+  .secondg{
+    
+    width: 100%;
+    margin: auto;
+    top:30%;
+    margin-top: 18%;
+  top:20%; bottom:20%
+  }
+  .secondinside,.secondinsideg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondh1,.secondh1g{
+    margin-bottom: 120px;
+  }
+  .mainbutton1{
+  
+  font-size: 2.8rem;
+  padding: 0px 20px;
+  border-radius: 20px;
+  margin: 20px;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, red 50%);
+  background-size: 230%;
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
+  
+  }
+  .mainbutton1g{
+  
+    font-size: 2.8rem;
+    padding: 0px 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, red 50%);
+    background-size: 230%;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    
+    }
+  .mainbutton:hover{
+    background-size: 100%;
+  }
+  .newbutton1{
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    top:1%;
+    right: 1%;
+    display: none;
+    margin: 5px;
+    color: white;
+    font-size: 2rem;
+  }
+  #mainmath{
+    font-size: 8rem;
+    color: rgb(85, 173, 255);
+  }
+  .conth1{
+    font-size: 4rem;
+  }
+  
+  .mainbutton{
+   
+    border-radius: 28px;
+    height: 50px;
+  font-size: 40px;
+  display: flex;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%,rgb(85, 173, 255) 50% );
+  background-size: 230%;
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
+  justify-content: center;
+  align-items: center;
+  }
+  .mainbutton:hover{
+    background-size: 100%;
+    transform: translateY(-8px);
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.486);
+  
+  }
+  .mainh1{
+    background-color: none;
+    font-size: 6rem;
+    
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .cont{
+    display: none;
+  margin-bottom: 20px;
+  
+  }
+  .new{
+    display: none;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  
+  }
+  
+  .newbutton{
+  color: white;
+  font-size: 5rem;
+  background-color: transparent;
+  border: transparent;
+  }
+  .box {
+    padding: 10px;
+    background-color: rgb(0, 0, 0,0.4);
+    border: 2px solid white;
+    box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0.527);
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+  }
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 80px;
+    
+    color: white;
+    font-family: cursive;
+  }
+  .hhhhh{
+    margin-top: 134px;
+    margin-bottom: 60px !important;
+  }
+  .ques {
+    width: 100%;
+    margin: 10px;
+  
+    text-align: center;
+  }
+  
+  .ans {
+    width: 35%;
+    font-size: 2rem;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: cornsilk;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    text-align: left;
+  }
+  .timer {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+  
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+  }
+  .t1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .quess {
+    color: white;
+    font-size: 4rem;
+  }
+  .gameover {
+    background-color: red;
+  }
+  .press {
+    background-color: rgba(0, 0, 0, 0.466);
+    box-shadow: 1px 1px 5px 2.5px white;
+  }
+  .tttt {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .right {
+    background-color: rgb(6, 189, 6) !important;
+    color: white;
+  }
+  .wrong {
+    background-color: red !important;
+    color: white;
+  }
+  .widthse {
+    width: auto;
+  }
+  .math {
+    color: coral;
+    font-size: 6rem;
+  }
+  footer {
+    margin: 15px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    bottom: 1%;
+   
+    text-align: center;
+  }
+  
+  .foo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .btn {
+    text-align: center;
+  }
+  .bt {
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+    padding: 12x 20px; 
+    border: 1px solid white;
+    border-radius: 40px;
+    font-size: 3rem;
+    transition: background-color 0.7s ease;
+    margin-bottom: 20px;
+  }
+  .bt:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  @media all and (max-width:600px) {
+    #mainmath{
+      font-size: 4rem;
+    }
+    .mainh1{
+      font-size: 2.8rem;
+    }
+    .mainbutton{
+      font-size: 28px;
+    }
+  }
